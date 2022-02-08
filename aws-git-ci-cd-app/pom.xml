@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.orgofarms</groupId>
 	<artifactId>aws-git-ci-cd-app</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>aws-git-ci-cd-app</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>

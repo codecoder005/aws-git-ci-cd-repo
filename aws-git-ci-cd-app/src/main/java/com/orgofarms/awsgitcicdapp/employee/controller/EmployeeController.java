@@ -20,6 +20,12 @@ public class EmployeeController {
     public EmployeeController(EmployeeService employeeService){
         this.employeeService = employeeService;
     }
+
+    @GetMapping("/api-status")
+    public String getApiStatus(){
+        return "Employees is up and running.";
+    }
+
     @GetMapping
     public List<EmployeeEntity> getAllEmployees(){
         return this.employeeService.getAllEmployees();
